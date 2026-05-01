@@ -45,7 +45,7 @@ const Signin = () => {
   };
 
   return (
-    <div className=" w-full mx-3 sm:w-100 sm:mx-auto rounded-lg bg-purple-50 p-3 my-5">
+    <div className=" w-[95%] sm:w-100 mx-auto rounded-lg bg-purple-50 p-3 my-5">
       <h1 className="text-2xl font-bold text-center">Login Form</h1>
       <Form className="flex rounded-md flex-col gap-4" onSubmit={onSubmit}>
         <TextField
