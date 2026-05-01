@@ -54,6 +54,12 @@ This project was developed to practice and demonstrate:
 
 ---
 
+## 🚀 Live Project
+
+👉 [Visit Live Site](https://online-books-borrowing-platform.vercel.app)
+
+---
+
 ## 👨‍💻 Author
 
 Developed by **Rana Khan**
