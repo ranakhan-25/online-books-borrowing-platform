@@ -1,0 +1,133 @@
+{
+  "book": [
+    {
+      "id": 1,
+      "title": "Dear Debbie",
+      "author": "Freida McFadden",
+      "description": "A gripping psychological thriller that will keep you guessing until the very last page.",
+      "category": "Thriller",
+      "available_quantity": 18,
+      "image_url": "https://i.ibb.co.com/VWcNWxt2/Dear-Debbie.jpg",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "title": "My Husband's Wife",
+      "author": "Alice Feeney",
+      "description": "A twisted domestic thriller full of shocking secrets and unexpected turns.",
+      "category": "Thriller",
+      "available_quantity": 20,
+      "image_url": "https://i.ibb.co.com/jPdc9vY7/Alice-Feeney.jpg",
+      "price": 27
+    },
+    {
+      "id": 3,
+      "title": "The Night We Met",
+      "author": "Abby Jimenez",
+      "description": "A heartwarming and emotional romance about love, loss, and second chances.",
+      "category": "Romance",
+      "available_quantity": 22,
+      "image_url": "https://i.ibb.co.com/rGjgsprj/Abby-Jimenez.jpg",
+      "price": 24
+    },
+    {
+      "id": 4,
+      "title": "Project Hail Mary",
+      "author": "Andy Weir",
+      "description": "A sci-fi masterpiece about a lone astronaut fighting to save humanity with science and courage.",
+      "category": "Sci-Fi",
+      "available_quantity": 10,
+      "image_url": "https://i.ibb.co.com/JjJTWh6Y/Andy-Weir.jpg",
+      "price": 29
+    },
+    {
+      "id": 5,
+      "title": "The Anxious Generation",
+      "author": "Jonathan Haidt",
+      "description": "How the smartphone and social media are rewiring childhood and causing an anxiety epidemic.",
+      "category": "Non-Fiction",
+      "available_quantity": 25,
+      "image_url": "https://i.ibb.co.com/WWy3wwmC/Jonathan-Haidt.jpg",
+      "price": 30
+    },
+    {
+      "id": 6,
+      "title": "Onyx Storm",
+      "author": "Rebecca Yarros",
+      "description": "Epic romantasy sequel filled with dragons, romance, and high-stakes battles.",
+      "category": "Fantasy",
+      "available_quantity": 12,
+      "image_url": "https://i.ibb.co.com/GmPKt4y/Rebecca-Yarros.avif",
+      "price": 32
+    },
+    {
+      "id": 7,
+      "title": "Outlive",
+      "author": "Peter Attia",
+      "description": "The ultimate guide to living longer and healthier through science-backed longevity practices.",
+      "category": "Health",
+      "available_quantity": 14,
+      "image_url": "https://i.ibb.co.com/vCD6MmT5/Outlive.jpg",
+      "price": 35
+    },
+    {
+      "id": 8,
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "description": "A dragon rider academy where survival means everything in this addictive romantasy.",
+      "category": "Fantasy",
+      "available_quantity": 15,
+      "image_url": "https://i.ibb.co.com/2VMTWpp/Fourth-Wing.jpg",
+      "price": 28
+    },
+    {
+      "id": 9,
+      "title": "The Women",
+      "author": "Kristin Hannah",
+      "description": "Powerful story of women who served in the Vietnam War and their untold struggles.",
+      "category": "Historical",
+      "available_quantity": 16,
+      "image_url": "https://i.ibb.co.com/gbqysx56/The-Women.jpg",
+      "price": 31
+    },
+    {
+      "id": 10,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "description": "The life-changing science of building good habits and breaking bad ones.",
+      "category": "Self-Help",
+      "available_quantity": 30,
+      "image_url": "https://i.ibb.co.com/LdzzRxpF/Atomic-Habits.jpg",
+      "price": 26
+    },
+    {
+      "id": 11,
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "description": "A thought-provoking novel about the choices we make and the lives we could have lived.",
+      "category": "Fiction",
+      "available_quantity": 19,
+      "image_url": "https://i.ibb.co.com/7xv7dwKS/Matt-Haig.jpg",
+      "price": 23
+    },
+    {
+      "id": 12,
+      "title": "Iron Flame",
+      "author": "Rebecca Yarros",
+      "description": "The explosive sequel to Fourth Wing with intense romance and deadly secrets.",
+      "category": "Fantasy",
+      "available_quantity": 11,
+      "image_url": "https://i.ibb.co.com/Rpz9N5TP/Iron-Flame.jpg",
+      "price": 30
+    }
+  ],
+  "category": [
+    { "id": 1, "category": "Thriller" },
+    { "id": 2, "category": "Romance" },
+    { "id": 3, "category": "Fantasy" },
+    { "id": 4, "category": "Sci-Fi" },
+    { "id": 5, "category": "Non-Fiction" },
+    { "id": 6, "category": "Self-Help" },
+    { "id": 7, "category": "Historical" }
+  ]
+}
