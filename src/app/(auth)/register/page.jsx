@@ -48,6 +48,7 @@ const SignUp = () => {
   
   return (
     <div className=" w-[95%] sm:w-120 mx-auto bg-pink-50 p-3 my-5 rounded-md">
+      <h1 className="text-2xl font-bold text-center my-3">Register Form</h1>
       <Form
         className="flex  flex-col gap-4"
         onSubmit={onSubmit}
