@@ -2,6 +2,15 @@ import { getData } from "@/components/shared/getData";
 import Image from "next/image";
 import React from "react";
 
+
+
+
+
+export const metadata = {
+  title: "Book Details | Online Book Borrowing Platform",
+  description: "View detailed information about each book including author, description, and availability.",
+};
+
 const DetailsPage = async ({ params }) => {
   const { id } = await params;
   const data = await getData();

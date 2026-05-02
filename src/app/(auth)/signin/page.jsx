@@ -15,6 +15,14 @@ import {
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
+
+
+
+export const metadata = {
+  title: "Sign In | Online Book Borrowing Platform",
+  description: "Login to your account to borrow and manage books.",
+};
+
 const Signin = () => {
   const onSubmit = async (e) => {
     e.preventDefault();

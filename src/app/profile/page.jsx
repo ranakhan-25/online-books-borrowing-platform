@@ -3,6 +3,14 @@ import { authClient } from "@/lib/auth-client";
 import Image from "next/image";
 import Link from "next/link";
 
+
+export const metadata = {
+  title: "My Profile | Online Book Borrowing Platform",
+  description: "Manage your profile, view borrowed books, and account settings.",
+};
+
+
+
 const ProfilePage = () => {
   
   const { data: session, isPending } = authClient.useSession();

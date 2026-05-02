@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Online Book Borrowing platform",
-  description: "Online Book Borrowing platform",
+  title: "Home | Online Book Borrowing Platform",
+  description: "Discover and explore books online with our book borrowing platform.",
 };
 
 export default function RootLayout({ children }) {

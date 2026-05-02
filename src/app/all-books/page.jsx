@@ -1,6 +1,13 @@
 import { getData } from "@/components/shared/getData";
 import SearchBooks from "@/components/shared/SearchBooks";
 
+
+export const metadata = {
+  title: "All Books | Online Book Borrowing Platform",
+  description: "Browse all available books and find your next read easily.",
+};
+
+
 const AllBooksPage = async () => {
   const data = await getData();
   const books = data?.book || [];
