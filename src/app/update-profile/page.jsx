@@ -61,7 +61,7 @@ const UpdataPage = () => {
           name="image"
           type="url"
           validate={(value) => {
-            // empty check
+           
             if (!value) {
               return "Photo URL is required";
             }
