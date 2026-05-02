@@ -135,7 +135,7 @@ const Signin = () => {
       </div>
 
       <p>
-        I have no any account{" "}
+        Don’t have account{" "}
         <Link href="/register" className="text-green-600 font-bold">
           Register
         </Link>
