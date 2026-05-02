@@ -30,6 +30,7 @@ export default function BlogPage() {
     },
   ]);
 
+  
   return (
     <div className="min-h-screen bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 p-6 text-white">
       <h1 className="text-4xl font-bold text-center mb-8 text-black">📚 Books Blog</h1>
