@@ -16,10 +16,6 @@ import { authClient } from "@/lib/auth-client";
 import { redirect } from "next/navigation";
 
 
-export const metadata = {
-  title: "Sign Up | Online Book Borrowing Platform",
-  description: "Create a new account to start borrowing books online.",
-};
 
 
 const SignUp = () => {
