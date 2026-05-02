@@ -82,17 +82,13 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-blue-700 px-4 pb-4 space-y-4 py-5 ">
-          <NavLink href={"/"}>Home</NavLink>
-          <NavLink href={"/all-books"}>All Phones</NavLink>
-          <NavLink href={"/profile"}>Profile</NavLink>
+          <NavLink className="text-white hover:underline" href={"/"}>Home</NavLink>
+          <NavLink className="text-white hover:underline" href={"/all-books"}>All Phones</NavLink>
+          <NavLink className="text-white hover:underline" href={"/profile"}>Profile</NavLink>
+
+          <p>{user?.name}</p>
           <div className="flex items-center space-x-2 mt-2">
-            <Image
-              src="https://i.ibb.co.com/Z6thJ1Mm/man1.jpg"
-              alt="User"
-              width={32}
-              height={32}
-              className="rounded-full border"
-            />
+            
             {isPending ? <span className="loading loading-dots loading-md"></span> : !user ? (
               <Link
                 href="/signin"

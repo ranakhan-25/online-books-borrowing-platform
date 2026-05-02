@@ -31,6 +31,7 @@ const SignUp = () => {
       },
       {
         onSuccess: (ctx) => {
+          
           redirect("/signin");
         },
         onError: (ctx) => {

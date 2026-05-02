@@ -27,15 +27,12 @@ const Signin = () => {
         password: userData.password,
         callbackURL: "/",
       },
-      {
-        onSuccess: (ctx) => {
-          redirect("/");
-        },
-        onError: (ctx) => {
-          toast(ctx.error.message);
-        },
-      },
     );
+    if (error) {
+       toast(error.message);
+    } else if (data) {
+      redirect("/");
+    }
   };
 
   const handelGoogleAuth = async () => {

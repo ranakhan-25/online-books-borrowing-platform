@@ -57,10 +57,10 @@ export default function SearchBooks({ books, category }) {
         <ul>
           <li
             onClick={() => setSelectedCategory("all")}
-            className={`p-2 my-2 cursor-pointer rounded ${
+            className={`p-2  my-2 cursor-pointer rounded ${
               selectedCategory === "all"
                 ? "bg-blue-500 text-white"
-                : "bg-gray-100"
+                : "bg-gray-100 hover:bg-blue-100"
             }`}
           >
             All
@@ -73,7 +73,7 @@ export default function SearchBooks({ books, category }) {
               className={`p-2 my-2 cursor-pointer rounded ${
                 selectedCategory === item.category
                   ? "bg-blue-500 text-white"
-                  : "bg-gray-100"
+                  : "bg-gray-100 hover:bg-blue-100"
               }`}
             >
               {item.category}

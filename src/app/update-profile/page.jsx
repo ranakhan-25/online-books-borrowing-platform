@@ -18,24 +18,19 @@ const UpdataPage = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     const name = e.target.name.value;
-    const image = e.target.name.value;
-    await authClient.updateUser(
+    const image = e.target.image.value;
+   const {data} =  await authClient.updateUser(
       {
         name,
         image,
         callbackURL: "/profile",
-      },
-      {
-        onSuccess: (ctx) => {
-          return redirect("/profile");
-        },
-        onError: (ctx) => {
-          toast(ctx.error.message);
-        },
-      },
+      }
     );
 
-    router.refresh();
+    if (data.status) {
+      redirect("profile")
+    }
+    
   };
 
   return (

@@ -6,7 +6,7 @@ const Card = ({ book }) => {
   const {id,title,author,available_quantity,category,description, image_url,price, } = book;
   return (
     <div>
-      <div className="p-3 bg-white rounded-lg">
+      <div className="p-3 bg-white rounded-lg hover:scale-105 duration-500 ease-in-out">
                 <div className="">
                   <figure>
                     <Image

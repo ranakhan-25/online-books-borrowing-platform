@@ -21,7 +21,7 @@ const Books = async () => {
         {books &&
           books.slice(0, 4).map((book) => {
             return (
-              <div key={book.id} className="p-3 bg-white rounded-lg">
+              <div key={book.id} className="p-3 bg-white hover:scale-105 duration-500 ease-in-out rounded-lg">
                 <div className="">
                   <figure>
                     <Image
