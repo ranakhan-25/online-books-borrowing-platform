@@ -13,19 +13,22 @@ const HomePage = () => {
       </div>
 
       <div className="py-10 bg-blue-50 px-4 sm:px-6 lg:px-8 text-black">
-        <Marquee pauseOnHover className="">
-          👉iPhone 15 Pro: Premium Apple phone with powerful chip and excellent
-          camera performance. 👉Samsung Galaxy S24: Advanced Android phone with
-          AI features and smooth display experience. 👉 Xiaomi Redmi Note 13: 
-          Budget friendly phone offering good camera and long lasting battery
-           👉OnePlus 12:  High performance smartphone with fast charging and
-          smooth gaming experience
+        <Marquee
+          pauseOnHover
+          className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white py-3 font-medium"
+        >
+          👉 Dear Debbie by Freida McFadden — A chilling thriller full of
+          secrets and suspense. 👉 My Husband’s Wife by Alice Feeney — Dark
+          twists and hidden truths in a gripping story. 👉 The Night We Met by
+          Abby Jimenez — A heartfelt romance about love and second chances. 👉
+          Project Hail Mary by Andy Weir — An astronaut’s thrilling mission to
+          save humanity.
         </Marquee>
       </div>
 
       <Books />
       <BlogPage />
-      <AnimatedSection/>
+      <AnimatedSection />
     </div>
   );
 };

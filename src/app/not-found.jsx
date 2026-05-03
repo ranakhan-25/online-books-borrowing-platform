@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function NotFound() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 text-center text-white overflow-hidden">
+    <div className="flex flex-col items-center justify-center h-screen bg-linear-to-br from-indigo-600 via-purple-600 to-pink-600 text-center text-white overflow-hidden">
       
       {/* Floating 404 Heading */}
       <motion.h1
